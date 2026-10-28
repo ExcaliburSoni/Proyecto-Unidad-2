@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Speed of Comics</title>
+
+       <link rel="icon" href="Imagenes/Logo de la pagina Web de la maestra Karen.png" type="image/webp">
+
+
+    <link rel="stylesheet" href="inicio.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body> 
+
+    <header class="encabezado">
+
+        <div class="logo">
+            <span><img src="Imagenes/Logo de la pagina Web de la maestra Karen.png" alt="logo"></span>
+        </div>
+
+        <div class="busqueda">
+            <input type="text" placeholder="Buscar cómics...">
+            <button type="button" aria-label="Buscar">⌕</button>
+        </div>
+
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#marvel">Comics</a>
+            <a href="#dc">Mangas</a>
+            <a href="#idw">Coleccionables</a>
+            <a href="#ubicacion">Ubicación</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="inicio" class="inicio">
+
+            <h2>Novedades de la semana</h2>
+            <p>Descubre las nuevas historias y coleccionables de tus universos favoritos</p>
+
+            <div class="carrusel">
+
+                <a href="#marvel" class="diapositiva activa">
+                    <div class="imagen-novedad comic">
+                        <span><img src="Imagenes/Carrusel Comic.png" alt="banner_marvel"></span>
+                    </div>
+                    <h3>Descubre Los mejores Comics</h3>
+                    <p>Héroes, aventuras y grandes historias.</p>
+                </a>
+
+                <a href="#dc" class="diapositiva">
+                    <div class="imagen-novedad manga">
+                        <span><img src="Imagenes/Carrusel Manga.png" alt="banner_dc"></span>
+                    </div>
+                    <h3>La mejor Variedad de Mangas</h3>
+                    <p>En un unico y accesible lugar</p>
+                </a>
+
+                <a href="#idw" class="diapositiva">
+                    <div class="imagen-novedad collecionables">
+                        <span><img src="Imagenes/Carrusel Collecionables.png" alt="banner_idw"></span>
+                    </div>
+                    <h3>Los mejores coleccionable de tus franquicias favoritas</h3>
+                    <p>Desde las mejores figuras hasta lo mas loco que puedas imaginar</p>
+                </a>
+
+            </div>
+
+            <div class="indicadores">
+                <button class="indicador activo" data-slide="0"
+                    aria-label="Mostrar novedad Marvel"></button>
+                <button class="indicador" data-slide="1"
+                    aria-label="Mostrar novedad DC"></button>
+                <button class="indicador" data-slide="2"
+                    aria-label="Mostrar novedad IDW"></button>
+            </div>
+
+        </section>
+
+        <section class="accesos">
+
+            <h2>Explora nuestra tienda</h2>
+
+            <div class="botones-imagen">
+
+                <a href="#marvel" class="boton-imagen boton-marvel">
+                   
+                    <strong>Comics</strong>
+                </a>
+
+                <a href="#dc" class="boton-imagen boton-dc">
+                    
+                    <strong>Manga</strong>
+                </a>
+
+                <a href="#idw" class="boton-imagen boton-idw">
+                    
+                    <strong>Coleccionables</strong>
+                </a>
+
+                <a href="#ubicacion" class="boton-imagen boton-ubicacion">
+                    
+                    <strong>Ubicación</strong>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- catalogo marvel -->
+        <section id="marvel" class="catalogo catalogo-marvel">
+
+            <div class="titulo-catalogo">
+                <h2>Seccion de Comics</h2>
+                <p>Las mejores editoriasles <br>Junto a sus mejores historias</p>
+            </div>
+
+            <div class="productos">
+
+                <article class="producto">
+                    <div class="imagen-producto">
+                    <img src="Imagenes/Comics/Surge Idw.jpg" alt="Surge">
+                    </div>
+                    <h3>Sonic IDW Volumen 6</h3>
+                    <p>Recopilacionn de el volumen 14 seccion #51-56</p>
+                    <p class="precio">$280.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto">
+                        <img src="Imagenes/Comics/Extremis.jpg" alt="extremis">
+                    </div>
+                    <h3>Iron Man Extremis</h3>
+                    <p>"Extremis" es un arco argumental de seis números de la serie de cómics de Iron Man (vol. 4)</p>
+                    <p class="precio">$360.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto">
+                     <img src="Imagenes/Comics/Year One.jpg" alt="año_uno">
+                    </div>
+                    <h3>Batman Year One</h3>
+                    <p>Cuenta los primeros pasos de Bruce Wayne como Batman y el inicio de la carrera de James Gordon en una Gotham dominada por el crimen</p>
+                    <p class="precio">$265.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto">
+                        <img src="Imagenes/Comics/Scott.jpg" alt="pilgrim">
+                    </div>
+                    <h3> Scoot Pilgrim Precious Little Life</h3>
+                    <p>Scott Pilgrim está saliendo con una chica de prepa, pero cuando Ramona Flowers empieza a patinar por su mente, todo cambia</p>
+                    <p class="precio">$355.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto">
+                        <img src="Imagenes/Comics/Superman-Batman.jpg" alt="batman/superman">
+                    </div>
+                    <h3>Batman/Superman Enemigos Publicos</h3>
+                    <p> Lex Luthor, ahora presidente de los Estados Unidos, acusa a Superman de un acto horrible contra la humanidad y un equipo secreto de héroes poderosos deben capturarlo</p>
+                    <p class="precio">$360.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto">
+                    <img src="Imagenes/Comics/Spidey-Pool.jpg" alt="spidey-pool">
+                    </div>
+                    <h3>Spiderman/Deadpool</h3>
+                    <p> Spider-Man no puede soportar a Deadpool, aunque al mercenario le gustaría beneficiarse del sentido de responsabilidad de Spidey. Oh, y Wade aceptó el trabajo, Sr. Enfriar a Parker.</p>
+                    <p class="precio">$460.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+            </div>
+        </section>
+
+        <!--catalogo dc-->
+        <section id="dc" class="catalogo catalogo-dc">
+
+            <div class="titulo-catalogo">
+                <h2>Seccion de Mangas</h2>
+                <p>Lo mejor de lo mejor traido desde la bella Japon</p>
+            </div>
+
+            <div class="productos">
+
+                <article class="producto">
+                    <div class="imagen-producto"><img src="Imagenes/Manga/Super.jpg" alt="db-super"></div>
+                    <h3> Dragon Ball Super Vol 1</h3>
+                    <p>Tras la derrota de Majin Buu la Tierra vive un periodo de paz y prosperidad. Goku se dedica a la vida en el campo, pero sigue entrenando en espera de un nuevo villano</p>
+                    <p class="precio">$180.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto"><img src="Imagenes/Manga/Yugi.jpg" alt="Yugi"></div>
+                    <h3>Yu-Gi-Oh Vol 1</h3>
+                    <p>Una exhibición de una excavación egipcia llega a Ciudad Domino, y Yugi y sus amigos van a verla. Shadi, un egipcio que resguarda las tumbas de los faraones, llega para castigar a los "profanadores", pero se encuentra con Yugi y le intriga su poder del Rompecabezas del Milenio</p>
+                    <p class="precio">$220.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto"><img src="Imagenes/Manga/Iruma.jpg" alt="Iruma-kun"></div>
+                    <h3>Mairimashita Iruma-Kun Vol 1</h3>
+                    <p>Iruma-kun, un pobre chico vendido por el egoísmo de sus padres a un demonio. ¡¿Y ahora resulta ser el nieto consentido de un demonio sin descendencia y además asiste a una escuela para demonios?!</p>
+                    <p class="precio">$360.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto"><img src="Imagenes/Manga/Naruto.jpg" alt="Naruto"></div>
+                    <h3>Naruto Vol 1</h3>
+                    <p>!La historia comienza en un discreto pueblo llamado Konoha. Ahí encontramos a un niño llamado Naruto, quien estudia en la Escuela Ninja y se divierte haciendo travesuras a sus comañeros. ¿Será posible que Naruto cumpla su gran sueño de convertirse en el sucesor hokage y supere la leyenda de sus antepasados?</p>
+                    <p class="precio">$160.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto"><img src="Imagenes/Manga/SamuraiPool.jpg" alt="Samurai-Pool"></div>
+                    <h3>Deadpool Samurai Vol 1</h3>
+                    <p>Deadpool, el héroe más caótico e irresponsable del cómic estadounidense, se muda a Japón, se convierte en miembro del Samurai Squad de los Avengers, ¡y arrasa con todo!</p>
+                    <p class="precio">$140.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto"><img src="Imagenes/Manga/Magi.jpg" alt="Magi"></div>
+                    <h3>Magi Vol 1</h3>
+                    <p>Una infinidad de encuentros y despedidas en el transcurso de sus aventuras. Existen misterios ocultos en un mundo desconocido. También un joven maravilloso llamado Aladdin. Una aventura llena de magia y tesoros valiosos está a punto de comenzar. ¡No te puedes perder esta divertida historia mágica!</p>
+                    <p class="precio">$140.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="idw" class="catalogo catalogo-idw">
+
+            <div class="titulo-catalogo">
+                <h2>Seccion de Collecionables</h2>
+                <p>Buscas algun coleccionable?, Si es haci<br> Estoy seguro que lo tenemos!</p>
+            </div>
+
+            <div class="productos">
+
+                <article class="producto">
+                    <div class="imagen-producto"><img src="Imagenes/Coleccionables/Sh Figuarts.jpg" alt="kaioken"></div>
+                    <h3>Goku Blue Kaioken SH Figuarts</h3>
+                    <p>Una increíble figura de Son Goku en su épica transformación "Kaioh-ken"! Con geniales terminados de pintura que acentúan el poder dinámico de esta técnica</p>
+                    <p class="precio">$3000.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto"><img src="Imagenes/Coleccionables/Kibolono.jpg" alt="kirby-lobo"></div>
+                    <h3>Peluche Kirby Salvaje</h3>
+                    <p>Compra el tierno peluche Kirby Animal en su versión más salvaje y adorable del héroe rosa más glotón y carismático del universo Nintendo</p>
+                    <p class="precio">$320.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto"><img src="Imagenes/Coleccionables/Tazas.jpg" alt="Cuphead"></div>
+                    <h3>Tazas Cuphead Youtooz</h3>
+                    <p>Esculpida con la forma de Cuphead, una gran sonrisa dentada, nariz roja, ojos brillantes, una pajita (popote) a rayas y un asa curva en el costado</p>
+                    <p class="precio">$570.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto"><img src="Imagenes/Coleccionables/Unicorns.jpg" alt="Unicornios"></div>
+                    <h3>Unstable Unicorns Diamond Edition</h3>
+                    <p>Juego básico Unstable Unicorns Diamond Edition, para niños, adolescentes y adultos, perfecto para una noche de juegos en familia</p>
+                    <p class="precio">$580.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto"><img src="Imagenes/Coleccionables/Playera.jpg" alt="bat-shadow"></div>
+                    <h3>DC Comics Sonic The Hedgehog - playera de manga corta para hombre</h3>
+                    <p>Sonic The Hedgehog - playera para hombre con diseño de Shadow para adultos </p>
+                    <p class="precio">$510.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto"><img src="Imagenes/Coleccionables/PacMan.jpg"></div>
+                    <h3>MY ARCADE Pac-Man Micro Player Pro: 6.75" Mini Arcade Machine, Fully playable Video Game</h3>
+                    <p> Mini Maquina de Videojuegos, Totalmente jugable, Contiene 10 Juegos, Pantalla 7.1 cm de Alta resolucion, Coleccionable</p>
+                    <p class="precio">$850.00 MXN</p>
+                    <button class="boton-producto" type="button">Ver producto</button>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="ubicacion" class="seccion-ubicacion">
+
+            <div class="titulo-ubicacion">
+                <p class="etiqueta">VISÍTANOS</p>
+                <h2>Encuentra Speed of Comics</h2>
+                
+            </div>
+
+            <div class="contacto">
+
+                <div class="datos-contacto">
+                    <h3>Información de contacto</h3>
+
+                    <p><strong>Dirección:</strong> Nicolas Flores Num 321</p>
+                    <p><strong>Teléfono:</strong>773 121 3456</p>
+                    <p><strong>Horario:</strong> 10:00 am a 8:00pm</p>
+                    <p><strong>Correo:</strong> speedofcomics@gmail.com</p>
+                </div>
+
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/place/Kioto,+Prefectura+de+Kioto,+Jap%C3%B3n/@35.0981962,135.7188694,10z/data=!3m1!4b1!4m6!3m5!1s0x6001a8d6cd3cc3f1:0xc0961d366bbb1d3d!8m2!3d35.011564!4d135.7681489!16zL20vMDlkNF8?hl=es_419&entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D"
+                        title="Mapa de ubicación de Speed of Comics"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="pie">
+
+        <h2>Speed of Comics</h2>
+        <p>Tu próxima gran historia comienza aquí.</p>
+        <p>Proyecto escolar de tienda de cómics.</p>
+
+        <a href="#inicio">Volver al inicio ↑</a>
+
+    </footer>
+
+    <script src="carrusel.js"></script>
+
+</body>
+</html>
