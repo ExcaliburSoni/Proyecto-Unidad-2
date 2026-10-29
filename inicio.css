@@ -269,19 +269,19 @@ section h2 {
 }
 
 .boton-marvel {
-    background-color: #b8202e;
+      background: linear-gradient(140deg, #b4021d, #06139f);
 }
 
 .boton-dc {
-    background-color: #17477c;
+    background: linear-gradient(140deg, #fa8a00, #f98c0f);
 }
 
 .boton-idw {
-    background-color: #12666a;
+    background: linear-gradient(140deg, #01becb, #348016);
 }
 
 .boton-ubicacion {
-    background-color: #39475c;
+     background: linear-gradient(135deg, #104cb4, #ab1fe2);
 }
 
 .catalogo {
@@ -414,16 +414,18 @@ section h2 {
 }
 
 .seccion-ubicacion {
-    background: linear-gradient(135deg, #104cb4, #ab1fe2);
+    background-color: white;
 
 }
 
 .titulo-ubicacion {
+    color: rgb(0, 0, 0);
     text-align: center;
     margin-bottom: 30px;
 }
 
 .titulo-ubicacion h2 {
+    color: rgb(12, 12, 12);
     font-size: 30px;
 }
 
@@ -467,14 +469,14 @@ section h2 {
 }
 
 .pie {
-    background-color: var(--oscuro);
+   background: linear-gradient(135deg, #c12206, #1fe243);
     color: var(--blanco);
     text-align: center;
     padding: 35px 15px;
 }
 
 .pie h2 {
-    color: var(--dorado);
+    color: white;
     margin-bottom: 8px;
 }
 
@@ -488,9 +490,11 @@ section h2 {
     color: var(--dorado);
     font-weight: bold;
 }
-
-
-
+.pie a:hover{
+    font-size: 14px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
 
 @keyframes aparecer {
     from {
